@@ -13,6 +13,6 @@
     <IoIosMore />
     {#if showActions}
         <slot />
-        <div on:click={toggleActions} class="fixed inset-0 z-10"/>
+        <div on:click={toggleActions} class="fixed inset-0 z-10 cursor-default"/>
     {/if}
 </div>
