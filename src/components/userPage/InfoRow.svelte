@@ -5,7 +5,7 @@
 
 <div class={`py-4 px-4 sm:px-8 ${isOdd && 'bg-black/5 dark:bg-white/5'}`}>
     <div class='between max-w-sm mx-auto'>
-        <div class="relative pr-4 dark:text-zinc-400 text-zinc-600 text-left font-semibold">
+        <div class="relative pr-4 dark:text-zinc-400 text-zinc-800 text-left font-semibold">
             {#if $$slots.icon}
                 <div class="translate-y-0.5 w-5 h-5"><slot name="icon"/></div>
             {/if}

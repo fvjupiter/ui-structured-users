@@ -26,7 +26,7 @@
             overflow-hidden
         ">
         {#if data}
-            <div class="relative w-full pt-8 bg-white/70 dark:bg-black/70 backdrop2 z-10">
+            <div class="relative w-full pt-8 bg-white/80 dark:bg-black/70 backdrop2 z-10">
                 <div class="
                     w-72 h-72 md:w-96 md:h-96 mx-auto
                     shadow-2xl dark:shadow-black
@@ -82,7 +82,7 @@
                 <!-- About -->
                 <div class="py-4 px-4 sm:px-8">
                     <div class='max-w-sm w-full mx-auto'>
-                        <div class='pr-4 pb-2 dark:text-zinc-400 text-zinc-600 font-semibold'>About</div>
+                        <div class='pr-4 pb-2 dark:text-zinc-400 text-zinc-800 font-semibold'>About</div>
                         <p class="text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id porttitor ex, sed elementum erat. Integer efficitur pretium sagittis. Sed bibendum ante a neque accumsan aliquam. Quisque pellentesque mattis ante. Nullam egestas mattis tortor sed iaculis. Vivamus ut faucibus dui. Suspendisse sit amet ultricies neque, sit amet convallis libero. Pellentesque pellentesque commodo libero, eget venenatis nisi.
                         </p>
