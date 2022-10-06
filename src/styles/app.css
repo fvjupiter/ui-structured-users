@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .center{
+      @apply flex items-center justify-center;
+    }
+    .evenly{
+      @apply flex items-center justify-evenly;
+    }
+    .between{
+      @apply flex items-center justify-between;
+    }
+    .start{
+      @apply flex items-center justify-start;
+    }
+    .end{
+      @apply flex items-center justify-end;
+    }
+    .full{
+      @apply w-full h-full
+    }
+    .duration-long{
+      @apply duration-300 ease-in-out
+    }
+    .duration{
+      @apply duration-150 ease-in-out
+    }
+    .duration-short{
+      @apply duration-75 ease-in-out
+    }
+}
+html{
+  background-color: rgb(24,24,27);
+  font-weight: 300;
+}
+.backdrop{
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.backdrop2{
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+}
+
